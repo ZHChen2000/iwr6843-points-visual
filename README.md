@@ -34,7 +34,7 @@
 
 **综合演示**
 
-<video src="img/综合演示.mp4" controls=""></video>
+[📹 点击查看演示视频](img/综合演示.mp4)
 
 ### 🎯 核心功能
 
