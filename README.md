@@ -30,7 +30,7 @@
 - [许可证](#许可证)
 - [贡献](#贡献)
 
-## ✨ 功能特性
+## ✨ 功能特性 <a id="功能特性"></a>
 
 **综合演示**
 
@@ -104,7 +104,7 @@ https://github.com/user-attachments/assets/b9f3bfae-dc2e-40f1-a2bf-61bca604d617
 - 串口驱动（用于雷达通信）
 - 网络配置（用于UDP数据接收）
 
-## 🚀 快速开始
+## 🚀 快速开始 <a id="快速开始"></a>
 
 ### 1. 克隆仓库
 
@@ -169,7 +169,7 @@ pip install -r requirements.txt
    - 根据雷达型号选择对应的固件文件（位于 `firmware/` 目录）
    - 通过串口加载固件
 
-## 📖 使用说明
+## 📖 使用说明 <a id="使用说明"></a>
 
 ### 启动程序
 
@@ -201,7 +201,7 @@ pip install -r requirements.txt
 - **聚类参数**: 调整DBSCAN聚类的eps和min_samples
 - **显示参数**: 调整点云大小、颜色、透明度等
 
-## 📁 项目结构
+## 📁 项目结构 <a id="项目结构"></a>
 
 ```
 RadarStream/
