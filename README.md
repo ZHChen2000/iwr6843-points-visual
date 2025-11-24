@@ -34,7 +34,11 @@
 
 **综合演示**
 
-[📹 点击查看演示视频](img/综合演示.mp4)
+
+
+https://github.com/user-attachments/assets/b9f3bfae-dc2e-40f1-a2bf-61bca604d617
+
+
 
 ### 🎯 核心功能
 
