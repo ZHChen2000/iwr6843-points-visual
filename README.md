@@ -8,7 +8,7 @@
 
 支持TI IWR6843ISK-ODS雷达的实时信号处理可视化展示、点云聚类以及跌倒检测，代码注释完整，功能齐全。
 
-**郑重感谢本项目原作者Tkwer开源项目RadarStream，本项目是在RadarStream基础上新增了3D点云显示、目标轨迹追踪以及跌倒检测三大功能，RadarStream原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
+**感谢原作者Tkwer的开源项目RadarStream，本项目是在RadarStream基础上新增了3D点云显示、目标轨迹追踪以及跌倒检测三大功能，RadarStream原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
 
 [功能特性](#功能特性) | [快速开始](#快速开始) | [使用说明](#使用说明) | [项目结构](#项目结构)
 
@@ -359,7 +359,7 @@ rx_num = 4           # 接收天线数
 
 - TI (Texas Instruments) 提供的毫米波雷达技术支持
 - 所有贡献者和用户的支持
-- **再次郑重感谢本项目原作者Tkwer开源项目RadarStream，原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
+- **再次感谢原作者Tkwer的开源项目RadarStream，原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
 
 ---
 
