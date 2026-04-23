@@ -8,7 +8,6 @@
 
 支持TI IWR6843ISK-ODS雷达的实时信号处理可视化展示、点云聚类以及跌倒检测，代码注释完整，功能齐全。
 
-**感谢原作者Tkwer的开源项目RadarStream，本项目是在RadarStream基础上新增了3D点云显示、目标轨迹追踪以及跌倒检测三大功能，RadarStream原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
 
 [功能特性](#功能特性) | [快速开始](#快速开始) | [使用说明](#使用说明) | [项目结构](#项目结构)
 
@@ -56,7 +55,6 @@ https://github.com/user-attachments/assets/b9f3bfae-dc2e-40f1-a2bf-61bca604d617
 - **3D可视化**
   
   - 实时3D点云显示
-  - 交互式OpenGL渲染
   - 可配置显示参数
   - ![3D点云显示](img/3D点云显示.png)
   
@@ -83,12 +81,10 @@ https://github.com/user-attachments/assets/b9f3bfae-dc2e-40f1-a2bf-61bca604d617
 - **数据采集**: DCA1000 EVM 数据采集卡
 - **计算机**: Windows 10/11
 - **内存**: 建议 8GB 或以上
-- **显卡**: 支持OpenGL的独立显卡（推荐）
 
 ### 软件要求
 
 - Python 3.7 或更高版本
-- Windows 操作系统
 - 串口驱动（用于雷达通信）
 - 网络配置（用于UDP数据接收）
 
@@ -320,12 +316,11 @@ rx_num = 4           # 接收天线数
 
 1. 调整点云阈值参数
 2. 检查聚类参数设置
-3. 确认显卡驱动支持OpenGL
-4. 降低显示的点云数量限制
+3. 降低显示的点云数量限制
 
 ### Q: Windows上出现joblib/loky警告？
 
-**A**: 这是已知问题，已在代码中处理。警告不影响程序功能，可以忽略。
+**A**: 已在代码中处理。警告不影响程序功能，可以忽略。
 
 ## 📄 许可证
 
@@ -355,11 +350,10 @@ rx_num = 4           # 接收天线数
 - 测试：确保新功能不影响现有功能
 - 文档：更新相关文档说明
 
-## 🙏 致谢
+## 🙏 参考与致谢
 
 - TI (Texas Instruments) 提供的毫米波雷达技术支持
-- 所有贡献者和用户的支持
-- **再次感谢原作者Tkwer的开源项目RadarStream，原项目地址：**[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
+- Tkwer的开源项目RadarStream，原项目地址：[Tkwer/RadarStream](https://github.com/Tkwer/RadarStream)
 
 ---
 
